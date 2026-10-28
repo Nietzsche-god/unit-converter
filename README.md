@@ -22,5 +22,5 @@ python -m pytest -q
 
 ## Live project page
 
-GitHub Pages URL: https://USERNAME.github.io/REPO_NAME/
+GitHub Pages URL: https://nietzsche-god.github.io/unit-converter/
 
