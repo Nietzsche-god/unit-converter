@@ -11,7 +11,7 @@ A small Python unit converter with pytest tests, GitHub Actions CI and a GitHub 
 
 **Theme:** Unit Converter
 
-Project status: Length and weight converters complete.
+Project status: Length, weight, temperature and volume converters complete.
 
 ## Run the tests
 
