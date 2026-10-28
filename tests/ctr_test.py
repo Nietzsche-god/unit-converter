@@ -31,3 +31,5 @@ def test_zero_volume_edge_case():
 def test_invalid_volume_unit_raises_error():
     with pytest.raises(ValueError):
         convert_volume(1, "l", "bucket")
+def test_kelvin_to_fahrenheit_normal():
+    assert convert_temperature(273.15, "K", "F") == pytest.approx(32)
