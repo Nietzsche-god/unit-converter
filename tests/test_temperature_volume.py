@@ -4,7 +4,7 @@ from converter.temperature_volume import convert_temperature, convert_volume
 
 
 def test_celsius_to_fahrenheit_normal():
-    assert convert_temperature(100, "C", "F") == pytest.approx(213)
+    assert convert_temperature(100, "C", "F") == pytest.approx(212)
 
 
 def test_fahrenheit_to_celsius_normal():
@@ -31,5 +31,7 @@ def test_zero_volume_edge_case():
 def test_invalid_volume_unit_raises_error():
     with pytest.raises(ValueError):
         convert_volume(1, "l", "bucket")
+
+
 def test_kelvin_to_fahrenheit_normal():
     assert convert_temperature(273.15, "K", "F") == pytest.approx(32)
